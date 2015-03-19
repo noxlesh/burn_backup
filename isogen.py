@@ -1,4 +1,4 @@
-__author__ = 'serg'
+__author__ = 'noxlesh'
 
 import os
 import datetime
@@ -13,7 +13,7 @@ class IsoGen(object):
         self.bak_dir = bak_dir
         self.iso_dir = iso_dir
 
-    # Generate list of backup files
+    # Generate backup file list
     def get_1c_archives_list(self):
         bak_1c_files = []
         os.chdir(self.bak_dir)
